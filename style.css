@@ -1,0 +1,135 @@
+body{
+    font-family: 'Saira Stencil One', cursive;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: block;
+    width: 1200px;
+    height: 400px;
+    background-color: #536EFF;
+    color: #fafafa;
+}
+.banner h1{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 84px;
+    font-weight: 300;
+}
+.banner h2{
+    position: absolute;
+    top: 110px;
+    left: 415px;
+    font-size: 84px;
+    font-weight: 300;
+}
+.text{
+    display: flex;
+    position: absolute;
+    top: 320px;
+    left: 80px;
+}
+.text div{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 36px;
+    animation: text 2s ease-in-out ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.text div:nth-child(1){
+    animation-delay: 0.25s;
+}
+.text div:nth-child(2){
+    animation-delay: 0.5s;
+}
+.text div:nth-child(3){
+    animation-delay: 0.75s;
+}
+.text div:nth-child(4){
+    animation-delay: 1s;
+}
+.text div:nth-child(5){
+    animation-delay: 1.25s;
+}
+.text div:nth-child(6){
+    animation-delay: 1.5s;
+}
+.text div:nth-child(7){
+    animation-delay: 1.75s;
+}
+.text div:nth-child(8){
+    animation-delay: 2s;
+}
+.text div:nth-child(9){
+    animation-delay: 2.25s;
+}
+.text div:nth-child(10){
+    animation-delay: 2.5s;
+}
+.text div:nth-child(11){
+    animation-delay: 2.75s;
+}
+.text div:nth-child(12){
+    animation-delay: 3s;
+}
+.text div:nth-child(13){
+    animation-delay: 3.25s;
+}
+@keyframes text {
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.star{
+    animation: star 2s linear infinite;
+    opacity: 0;
+}
+@keyframes star {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.star1{
+    position: absolute;
+    top: 360px;
+    left: 40px;
+}
+.star2{
+    position: absolute;
+    top: 320px;
+    left: 510px;
+}
+.star3{
+    position: absolute;
+    top: 310px;
+    left: 480px;
+}
+.ski{
+    width: 300px;
+    height: 309px;
+    position: relative;
+    margin-left: 990px;
+    margin-top: 20px;
+    right: 80px;
+    animation: ski 2s ease-out;
+}
+@keyframes ski {
+    0%{
+        transform: translate(400px,-300px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
